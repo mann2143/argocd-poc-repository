@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: public.ecr.aws/h3q0t8j9/stryker-poc-repository:123
+        image: public.ecr.aws/h3q0t8j9/stryker-poc-repository:myimage
         ports:
         - containerPort: 80
 ---
