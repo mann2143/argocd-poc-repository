@@ -14,6 +14,8 @@ spec:
       labels:
         app: nginx
     spec:
+      imagePullSecrets:
+        - name: ecr-creds
       containers:
       - name: nginx
         image: 851725462081.dkr.ecr.us-east-1.amazonaws.com/poc-repo:latest
