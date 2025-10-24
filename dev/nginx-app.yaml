@@ -18,7 +18,7 @@ spec:
         - name: ecr-creds
       containers:
       - name: nginx
-        image: 851725462081.dkr.ecr.us-east-1.amazonaws.com/stryker-poc-respository:12
+        image: 851725462081.dkr.ecr.us-east-1.amazonaws.com/stryker-poc-respository:13
         ports:
         - containerPort: 80
 ---
